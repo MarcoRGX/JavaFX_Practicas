@@ -1,0 +1,24 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.titulo{
+	-fx-font-size: 25px;
+	-fx-text-fill: white ;
+}
+.components{
+	-fx-text-fill: white;
+}
+.titulo:hover{
+	-fx-font-size: 26;
+	-fx-text-fill: white;
+}
+.texto{
+	-fx-font-size: 13;
+	-fx-text-fill: white;
+}
+.texto:hover{
+	-fx-font-size: 15;
+	-fx-text-fill: white;
+}
+.fondo{
+	-fx-background-image: url(img/1A4.png);
+	-fx-background-size: 120%;
+}
