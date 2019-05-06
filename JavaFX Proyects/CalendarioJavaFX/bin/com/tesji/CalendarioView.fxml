@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tesji.CalendarioController">
+   <children>
+      <Button fx:id="btnComenzar" layoutX="31.0" layoutY="250.0" mnemonicParsing="false" onAction="#btnComenzarOnAction" styleClass="boton" stylesheets="@application.css" text="Comenzar" />
+      <Button fx:id="btnBorrar" layoutX="45.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnBorrarOnAction" styleClass="boton" stylesheets="@application.css" text="Borrar" />
+      <Button fx:id="btnSalir" layoutX="50.0" layoutY="321.0" mnemonicParsing="false" onAction="#btnSalirOnAction" styleClass="boton" stylesheets="@application.css" text="Salir" />
+      <Label fx:id="lblTitulo" layoutX="31.0" layoutY="22.0" prefHeight="33.0" prefWidth="542.0" styleClass="title" stylesheets="@application.css" text="Calendario Dia Siguiente en JavaFX" />
+      <Label layoutX="45.0" layoutY="108.0" text="Ingresa el Dia:" />
+      <Label layoutX="45.0" layoutY="131.0" text="Ingresa el Mes." />
+      <Label layoutX="45.0" layoutY="154.0" text="Ingresa el Año:" />
+      <Label layoutX="179.0" layoutY="238.0" styleClass="title" stylesheets="@application.css" text="Fecha Elegida:" />
+      <Label fx:id="lblElegida" layoutX="208.0" layoutY="278.0" text="00/00/0000" />
+      <Label layoutX="360.0" layoutY="238.0" styleClass="title" stylesheets="@application.css" text="Fecha Siguiente:" />
+      <Label fx:id="lblSiguiente" layoutX="407.0" layoutY="278.0" text="00/00/0000" />
+      <TextField fx:id="txtDia" layoutX="160.0" layoutY="95.0" />
+      <TextField fx:id="txtMes" layoutX="160.0" layoutY="126.0" />
+      <TextField fx:id="txtAño" layoutX="160.0" layoutY="157.0" />
+   </children>
+</AnchorPane>

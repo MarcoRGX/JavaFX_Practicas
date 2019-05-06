@@ -1,0 +1,9 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.vv{
+	-fx-background-color: #40e0d0; -fx-text-fill: white;
+}
+
+.boton{
+	-fx-background-color: #da70d6; -fx-text-fill: white;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="fondo" stylesheets="@application.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tesji.api.ApiController">
+   <bottom>
+      <JFXButton fx:id="btnComenzar" onAction="#btnComenzarOnAction" styleClass="components" stylesheets="@application.css" text="Comenzar" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

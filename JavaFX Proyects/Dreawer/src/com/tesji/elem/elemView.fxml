@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="350.0" prefWidth="200.0" styleClass="vv" stylesheets="@../../teji/drawer/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tesji.elem.ElementosController">
+   <children>
+      <ImageView fitHeight="103.0" fitWidth="182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagen/canserbero.jpg" />
+         </image></ImageView>
+      <JFXButton fx:id="b1" onAction="#changeColor" prefHeight="57.0" prefWidth="208.0" styleClass="boton" stylesheets="@../../teji/drawer/application.css" text="HOLA !!!!!!" />
+      <JFXButton fx:id="b2" onAction="#changeColor" prefHeight="67.0" prefWidth="205.0" styleClass="boton" stylesheets="@../../teji/drawer/application.css" text="AMIGO" />
+      <JFXButton fx:id="b3" buttonType="RAISED" onAction="#changeColor" prefHeight="57.0" prefWidth="201.0" styleClass="boton" text="ESTA ES MI API" />
+      <JFXButton fx:id="exit" onAction="#exit" prefHeight="66.0" prefWidth="206.0" styleClass="boton" stylesheets="@../../teji/drawer/application.css" text="exit" />
+   </children>
+</VBox>

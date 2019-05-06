@@ -1,0 +1,14 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.title{
+	-fx-font-size: 20px;
+	-fx-font-family: chiller;
+	-fx-fill: rgb(239,41,41);
+	-fx-alignment: center ;
+}
+.boton{
+	-fx-background-color: cyan ;
+}
+.boton:hover{
+	-fx-background-color: aquamarine ;
+	-fx-text-fill: red ;
+}
